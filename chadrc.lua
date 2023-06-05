@@ -19,8 +19,6 @@ M.ui = {
   },
   changed_themes = {
     chadracula = {
-      base_30 = {
-      },
       base_16 = {
         base00 = "none"
       }
