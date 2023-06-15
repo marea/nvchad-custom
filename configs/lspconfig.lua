@@ -22,3 +22,13 @@ lspconfig.omnisharp.setup({
   on_attach = on_attach,
   capabilities = capabilities,
 })
+
+lspconfig.stylelint_lsp.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+})
+
+lspconfig.emmet_ls.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+})
