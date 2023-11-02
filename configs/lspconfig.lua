@@ -32,3 +32,13 @@ lspconfig.emmet_ls.setup({
   on_attach = on_attach,
   capabilities = capabilities,
 })
+
+lspconfig.gdscript.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+})
+
+lspconfig.gopls.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+})
