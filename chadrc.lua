@@ -26,12 +26,8 @@ M.ui = {
   },
   theme = "chadracula",
   tabufline = {
-    overriden_modules = function()
-      return {
-        buttons = function()
-          return ""
-        end,
-      }
+    overriden_modules = function(modules)
+      table.remove(modules, 4)
     end,
     lazyload = false
   }
