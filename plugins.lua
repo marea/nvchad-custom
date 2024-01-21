@@ -41,7 +41,8 @@ local plugins = {
     dependencies = {
       "aklt/plantuml-syntax",
       "tyru/open-browser.vim",
-    }
+    },
+    lazy = false
   }
 }
 return plugins
