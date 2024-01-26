@@ -17,14 +17,8 @@ M.ui = {
     TblineFill = nobg,
     Tb = nobg,
   },
-  changed_themes = {
-    chadracula = {
-      base_16 = {
-        base00 = "none"
-      }
-    }
-  },
-  theme = "chadracula",
+  transparency = true,
+  theme = "ashes",
   tabufline = {
     overriden_modules = function(modules)
       table.remove(modules, 4)
